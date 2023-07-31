@@ -69,7 +69,8 @@ static int RollUntil()
 Console.WriteLine(RollUntil());
 
 // Dice Roll_beta - wrote this before finished reading instructions -> Optional Bonus
-static List<string> DiceRoll_Beta() {
+static List<string> DiceRoll_Beta()
+{
     List<string> rolls = new List<string>();
 
     Console.WriteLine("How many dice do you want to roll?");
